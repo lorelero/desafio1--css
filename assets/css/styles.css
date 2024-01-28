@@ -1,0 +1,146 @@
+:root {
+    --color-white: #fff;
+    --color-platinum: #e8ebe4;
+    --color-gray: #bec1bb;
+    --color-blue-bell: #a491d2;
+    --color-soap: #cdc3e6;
+    --color-pale-lavender: #d4dcff;
+    --color-dark-jungle: #1b1f21;
+    --color-outer-space: #444749;
+    --color-old-silver: #828485;
+    --font-size-small: 10px;
+    --font-size-medium: 14px;
+    --font-size-large: 16px;
+    --font-size-Xlarge: 45px;
+    --font-weight-light: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+}
+
+body{
+    margin: 0;
+    font-family: "roboto", open sans regular;
+    display: flex;
+    height: 100vh;
+}
+
+  aside {
+    width: 400px;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu {
+    background-color: var(--color-white);
+    color: var(--color-dark-jungle);
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+
+img {
+    height: 7rem;
+}
+.chat {
+    border: 1px solid var(--color-gray);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nuevo-chat {
+    background-color: var(--color-blue-bell);
+    color: var(--color-white);
+    font-size: var(--font-size-large);
+    white-space: nowrap;
+    padding: 20px 80px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nuevo-chat:hover {
+    background-color: var(--color-soap);
+  }
+  
+  .nuevo-chat:focus {
+    background-color: var(--color-gray);
+    color: var(--color-white);
+  }
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-self: center;
+  }
+
+  .contenido {
+    background-color: var(--color-platinum);
+    color: var(--color-dark-jungle);
+    display: flex;
+    flex: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contenido img {
+    height: 300px;
+  }
+  .contenido h1 {
+    font-size: var(--font-size-Xlarge);
+    font-weight: var(--font-weight-light);
+    margin: 10px;
+  }
+  .contenido p {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-light);
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    margin: 10px;
+  }
+
+h5,p{
+margin: 0;
+
+
+}
+
+.user-card{
+    display:flex;
+    padding:0.9rem;
+    border-top: solid 1px grey;
+    color:#828485;
+    font-size: 14px;
+}
+
+.user-card img{
+    border-radius: 60%;
+    margin-right: 1.2rem;
+    height: 45px;
+    width: 45px;
+}
+
+.user-card-principal{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.user-card-principal .left{
+    display:flex;
+}
+
+
